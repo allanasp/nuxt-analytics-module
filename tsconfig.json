@@ -1,0 +1,12 @@
+{
+  "extends": "./.nuxt/tsconfig.json",
+  "exclude": [
+    "dist",
+    "node_modules",
+    "playground",
+  ],
+  "include": [
+    "src/types/**/*.d.ts", // Include all declaration files in the custom types folder
+    "src/**/*.ts" // Include your TypeScript source files
+  ]
+}
